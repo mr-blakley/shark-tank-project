@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build-a-Tech Startup: IT Edition - Launch Guide</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3498db',
+                        secondary: '#2ecc71',
+                        accent: '#e74c3c',
+                        dark: '#2c3e50',
+                        light: '#ecf0f1'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <header class="relative overflow-hidden" id="top">
+        <div class="absolute right-0 top-0 w-1/3 h-full opacity-20 hidden lg:block">
+            <img src="images/shark-icon.svg" alt="Shark Silhouette" class="object-cover h-full w-full">
+        </div>
+        <div class="container relative z-10">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div>
+                    <h1 class="flex items-center">
+                        <i class="fas fa-rocket mr-3"></i> 
+                        Build-a-Tech Startup: IT Edition
+                    </h1>
+                    <p class="subtitle">Student Launch Guide</p>
+                </div>
+                <div class="mt-4 md:mt-0 flex items-center">
+                    <span class="text-white text-xl hidden md:block"><i class="fas fa-shark mr-2"></i> Shark Tank Style</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="sticky top-0 z-50 shadow-md">
+        <div class="container">
+            <ul class="flex flex-wrap md:flex-nowrap justify-center">
+                <li class="hover:bg-blue-700 transition-colors duration-200"><a href="#overview"><i class="fas fa-info-circle"></i> Welcome & Overview</a></li>
+                <li class="hover:bg-blue-700 transition-colors duration-200"><a href="#instructions"><i class="fas fa-tasks"></i> Step-by-Step</a></li>
+                <li class="hover:bg-blue-700 transition-colors duration-200"><a href="#requirements"><i class="fas fa-clipboard-list"></i> Requirements</a></li>
+                <li class="hover:bg-blue-700 transition-colors duration-200"><a href="#resources"><i class="fas fa-book"></i> Resources & Tools</a></li>
+                <li class="hover:bg-blue-700 transition-colors duration-200"><a href="#submission"><i class="fas fa-upload"></i> Submission</a></li>
+                <li class="hover:bg-blue-700 transition-colors duration-200"><a href="#presentation"><i class="fas fa-chart-line"></i> Presentation Day</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="overview" class="card transform hover:shadow-lg transition-all duration-300">
+            <div class="flex items-center mb-4">
+                <i class="fas fa-bullseye text-2xl text-primary mr-3"></i>
+                <h2 class="m-0 p-0 border-0">Welcome & Overview</h2>
+            </div>
+            
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h3 class="text-xl font-bold text-dark">What is the Build-a-Tech Startup Project?</h3>
+                    <p class="mb-4">Students work in teams to design a fictional tech startup that offers a product or service. You'll incorporate at least three IT concepts and create a pitch for the class, Shark Tank-style.</p>
+                    
+                    <h3 class="text-xl font-bold text-dark">What You'll Be Doing</h3>
+                    <p class="mb-4">Over the course of this project, you'll brainstorm ideas, select IT concepts to incorporate, design mockups, and prepare a compelling presentation to pitch your startup idea to the class.</p>
+                    
+                    <h3 class="text-xl font-bold text-dark">Learning Objectives</h3>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Apply IT knowledge creatively (hardware, software, networking, AI, cybersecurity, etc.)</li>
+                        <li>Develop communication and teamwork skills</li>
+                        <li>Practice pitching and public speaking</li>
+                        <li>Gain experience with design tools (Canva, Figma, or Google Slides)</li>
+                    </ul>
+                </div>
+                <div class="promo-box bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-primary rounded-lg p-6 shadow-sm">
+                    <div class="flex items-center mb-3">
+                        <img src="images/shark-icon.svg" alt="Shark Icon" class="w-8 h-8 mr-2">
+                        <h3 class="text-xl font-bold text-primary m-0">Why This Matters</h3>
+                    </div>
+                    <p>This project helps you develop real-world skills in technology innovation, collaboration, and presentation that are highly valued in the workplace.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="instructions" class="card transform hover:shadow-lg transition-all duration-300">
+            <div class="flex items-center mb-4">
+                <i class="fas fa-tasks text-2xl text-primary mr-3"></i>
+                <h2 class="m-0 p-0 border-0">Step-by-Step Instructions</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-day">Day 1</div>
+                    <div class="timeline-content">
+                        <h3>Team Formation & Brainstorming</h3>
+                        <ul>
+                            <li>Form teams of 3-4 students</li>
+                            <li>Brainstorm startup ideas that solve real problems</li>
+                            <li>Begin discussing potential IT concepts to include</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-day">Day 2</div>
+                    <div class="timeline-content">
+                        <h3>Planning Your Product</h3>
+                        <ul>
+                            <li>Define your product/service in detail</li>
+                            <li>Select at least 3 IT concepts to incorporate</li>
+                            <li>Outline your business model and target audience</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-day">Day 3</div>
+                    <div class="timeline-content">
+                        <h3>Visual Design & Pitch Development</h3>
+                        <ul>
+                            <li>Design your company logo</li>
+                            <li>Create product mockups or interface designs</li>
+                            <li>Start building your pitch deck presentation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-day">Day 4</div>
+                    <div class="timeline-content">
+                        <h3>Presentation Preparation</h3>
+                        <ul>
+                            <li>Finalize your pitch deck</li>
+                            <li>Practice your presentation as a team</li>
+                            <li>Prepare for potential questions from the "sharks"</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-day">Day 5</div>
+                    <div class="timeline-content">
+                        <h3>Shark Tank Presentations & Awards</h3>
+                        <ul>
+                            <li>Deliver your 5-7 minute pitch</li>
+                            <li>Answer questions from the sharks</li>
+                            <li>Participate in peer voting for best pitches</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="requirements" class="card transform hover:shadow-lg transition-all duration-300">
+            <div class="flex items-center mb-4">
+                <i class="fas fa-clipboard-list text-2xl text-primary mr-3"></i>
+                <h2 class="m-0 p-0 border-0">Requirements</h2>
+            </div>
+            
+            <div class="requirement-group">
+                <h3><i class="fas fa-building"></i> Create a Tech Startup</h3>
+                <ul>
+                    <li>Name</li>
+                    <li>Mission/goal</li>
+                    <li>Target audience</li>
+                </ul>
+            </div>
+            
+            <div class="requirement-group">
+                <h3><i class="fas fa-lightbulb"></i> Design a Product or Service</h3>
+                <ul>
+                    <li>What problem does it solve?</li>
+                    <li>How does it work?</li>
+                </ul>
+            </div>
+            
+            <div class="requirement-group">
+                <h3><i class="fas fa-microchip"></i> Include at least 3 IT Concepts, such as:</h3>
+                <div class="tech-concepts flex flex-wrap gap-2 my-4">
+                    <span class="tech-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full hover:bg-blue-600 hover:text-white transition-colors duration-300">Cloud computing</span>
+                    <span class="tech-tag bg-green-100 text-green-800 px-3 py-1 rounded-full hover:bg-green-600 hover:text-white transition-colors duration-300">AI / Machine Learning</span>
+                    <span class="tech-tag bg-purple-100 text-purple-800 px-3 py-1 rounded-full hover:bg-purple-600 hover:text-white transition-colors duration-300">Databases</span>
+                    <span class="tech-tag bg-red-100 text-red-800 px-3 py-1 rounded-full hover:bg-red-600 hover:text-white transition-colors duration-300">Web/mobile apps</span>
+                    <span class="tech-tag bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full hover:bg-yellow-600 hover:text-white transition-colors duration-300">Networking</span>
+                    <span class="tech-tag bg-gray-100 text-gray-800 px-3 py-1 rounded-full hover:bg-gray-600 hover:text-white transition-colors duration-300">Hardware specs</span>
+                    <span class="tech-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full hover:bg-blue-600 hover:text-white transition-colors duration-300">Cybersecurity features</span>
+                    <span class="tech-tag bg-green-100 text-green-800 px-3 py-1 rounded-full hover:bg-green-600 hover:text-white transition-colors duration-300">IoT (Internet of Things)</span>
+                </div>
+            </div>
+            
+            <div class="requirement-group">
+                <h3><i class="fas fa-presentation"></i> Develop a Pitch Deck (5–7 minutes presentation)</h3>
+                <ul>
+                    <li>Elevator pitch</li>
+                    <li>Product demo/mockup</li>
+                    <li>Business model (how it makes money or adds value)</li>
+                    <li>Tech stack used (brief description of IT components)</li>
+                    <li>Logo and/or UI mockup (use Canva, Figma, or draw it!)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="submission" class="card transform hover:shadow-lg transition-all duration-300">
+            <div class="flex items-center mb-4">
+                <i class="fas fa-upload text-2xl text-primary mr-3"></i>
+                <h2 class="m-0 p-0 border-0">Submission Details</h2>
+            </div>
+            <div class="submission-info">
+                <h3>Due Dates</h3>
+                <ul>
+                    <li><strong>Pitch Deck Submission:</strong> Due the day before presentations</li>
+                    <li><strong>Final Presentations:</strong> Will take place on the scheduled presentation day</li>
+                </ul>
+                
+                <h3>How to Submit</h3>
+                <p>Submit your pitch deck (Google Slides, PowerPoint, or PDF) through the class submission portal. Make sure all team members' names are included.</p>
+                
+                <div class="tips-box">
+                    <h3><i class="fas fa-lightbulb"></i> Submission Tips</h3>
+                    <ul>
+                        <li>Double-check that your presentation displays correctly</li>
+                        <li>Include any mockup files or additional resources as separate attachments</li>
+                        <li>Submit at least 12 hours before the deadline to avoid technical issues</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="presentation" class="card relative overflow-hidden transform hover:shadow-lg transition-all duration-300">
+            <div class="absolute right-0 bottom-0 w-1/4 h-2/5 opacity-10">
+                <img src="images/shark-icon.svg" alt="Shark" class="object-contain h-full w-full">
+            </div>
+            <div class="flex items-center mb-4">
+                <i class="fas fa-chart-line text-2xl text-primary mr-3"></i>
+                <h2 class="m-0 p-0 border-0">Presentation Day & Awards</h2>
+            </div>
+            <div class="presentation-info relative z-10">
+                <h3 class="text-xl font-bold text-dark flex items-center"><i class="fas fa-shark text-primary mr-2"></i> Shark Tank Format</h3>
+                <p class="text-gray-700 mb-3">Your teacher and selected students will play the role of "Sharks." After each pitch:</p>
+                <ul class="text-gray-800 pl-6 list-disc space-y-2">
+                    <li>Sharks will ask questions about the tech or business side</li>
+                    <li>They may critique the viability and innovation of the idea</li>
+                    <li>Teams should be prepared to defend their concept</li>
+                </ul>
+                
+                <h3 class="text-xl font-bold text-dark mt-8 mb-4">Judging Criteria</h3>
+                <div class="rubric-grid">
+                    <div class="rubric-item">
+                        <h4>Innovation (25%)</h4>
+                        <p>Originality and creativity of the idea</p>
+                    </div>
+                    <div class="rubric-item">
+                        <h4>IT Implementation (25%)</h4>
+                        <p>Effective use of IT concepts</p>
+                    </div>
+                    <div class="rubric-item">
+                        <h4>Viability (20%)</h4>
+                        <p>Business model and market potential</p>
+                    </div>
+                    <div class="rubric-item">
+                        <h4>Presentation (20%)</h4>
+                        <p>Clarity, organization, and delivery</p>
+                    </div>
+                    <div class="rubric-item">
+                        <h4>Visual Design (10%)</h4>
+                        <p>Quality of mockups and presentation design</p>
+                    </div>
+                </div>
+                
+                <h3 class="text-xl font-bold text-dark mt-8 mb-4">Award Categories</h3>
+                <div class="awards">
+                    <div class="award-item">
+                        <i class="fas fa-trophy"></i>
+                        <h4>Best Overall Startup</h4>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Most Innovative Concept</h4>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Best Technical Implementation</h4>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-chart-pie"></i>
+                        <h4>Most Viable Business</h4>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <h4>Best Design & Branding</h4>
+                    </div>
+                </div>
+                
+                <div class="tips-box bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg my-6 shadow-sm">
+                    <h3 class="text-lg font-bold text-amber-600 flex items-center"><i class="fas fa-lightbulb mr-2"></i> Presentation Tips</h3>
+                    <ul class="pl-6 list-disc space-y-1 mt-2 text-gray-700">
+                        <li>Keep your pitch concise and engaging</li>
+                        <li>Practice your timing to stay within 5-7 minutes</li>
+                        <li>Be prepared to answer technical questions about your IT concepts</li>
+                        <li>Show enthusiasm for your product/service</li>
+                        <li>Make eye contact with your audience</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="card transform hover:shadow-lg transition-all duration-300">
+            <div class="flex items-center mb-4">
+                <i class="fas fa-book text-2xl text-primary mr-3"></i>
+                <h2 class="m-0 p-0 border-0">Resources & Tools</h2>
+            </div>
+            
+            <div class="resource-group mb-8 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-primary flex items-center"><i class="fas fa-paint-brush mr-2"></i> Logo & Branding Tools</h3>
+                <ul class="mt-3 space-y-2 text-gray-700">
+                    <li><a href="https://www.canva.com/" target="_blank">Canva</a> - For creating logos, slides, and graphics</li>
+                    <li><a href="https://coolors.co/" target="_blank">Coolors</a> - Color palette generator for your brand</li>
+                    <li><a href="https://looka.com/" target="_blank">Looka</a> - AI-powered logo maker</li>
+                    <li><a href="https://www.brandmark.io/" target="_blank">Brandmark</a> - Create a unique logo for your startup</li>
+                </ul>
+            </div>
+            
+            <div class="resource-group mb-8 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-primary flex items-center"><i class="fas fa-bezier-curve mr-2"></i> Design & Mockup Tools</h3>
+                <ul class="mt-3 space-y-2 text-gray-700">
+                    <li><a href="https://www.figma.com/" target="_blank">Figma</a> - Create UI/UX designs and mockups</li>
+                    <li><a href="https://www.adobe.com/products/xd.html" target="_blank">Adobe XD</a> - Design user interfaces and prototypes</li>
+                    <li><a href="https://marvelapp.com/" target="_blank">Marvel</a> - Simple app and website mockups</li>
+                    <li><a href="https://www.invisionapp.com/" target="_blank">InVision</a> - Digital product design platform</li>
+                </ul>
+            </div>
+            
+            <div class="resource-group mb-8 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-primary flex items-center"><i class="fas fa-presentation mr-2"></i> Presentation Tools</h3>
+                <ul class="mt-3 space-y-2 text-gray-700">
+                    <li><a href="https://www.google.com/slides/about/" target="_blank">Google Slides</a> - Create and collaborate on presentations</li>
+                    <li><a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint" target="_blank">PowerPoint</a> - Create professional presentations</li>
+                    <li><a href="https://pitch.com/" target="_blank">Pitch</a> - Collaborative presentation software</li>
+                    <li><a href="https://www.beautiful.ai/" target="_blank">Beautiful.ai</a> - AI-powered presentation templates</li>
+                </ul>
+            </div>
+            
+            <div class="resource-group mb-8 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-primary flex items-center"><i class="fas fa-microchip mr-2"></i> IT Concept References</h3>
+                <ul class="mt-3 space-y-2 text-gray-700">
+                    <li><a href="https://aws.amazon.com/what-is-cloud-computing/" target="_blank">Cloud Computing</a> - Amazon Web Services</li>
+                    <li><a href="https://www.ibm.com/cloud/learn/what-is-artificial-intelligence" target="_blank">AI/Machine Learning</a> - IBM Guide</li>
+                    <li><a href="https://www.oracle.com/database/what-is-database/" target="_blank">Databases</a> - Oracle Database Guide</li>
+                    <li><a href="https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/what-is-a-network.html" target="_blank">Networking</a> - Cisco Networking Basics</li>
+                    <li><a href="https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security" target="_blank">Cybersecurity</a> - Kaspersky Guide</li>
+                    <li><a href="https://www.oracle.com/internet-of-things/what-is-iot/" target="_blank">IoT</a> - Oracle IoT Guide</li>
+                </ul>
+            </div>
+            
+            <div class="resource-group mb-8 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-primary flex items-center"><i class="fas fa-chart-line mr-2"></i> Pitch Deck Templates & Examples</h3>
+                <ul class="mt-3 space-y-2 text-gray-700">
+                    <li><a href="https://slidebean.com/blog/startups-airbnb-pitch-deck" target="_blank">Airbnb's Pitch Deck</a> - Analysis of a successful pitch</li>
+                    <li><a href="https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck" target="_blank">Y Combinator's Pitch Deck Guide</a> - Expert advice</li>
+                    <li><a href="https://slidebean.com/blog/startups-uber-pitch-deck" target="_blank">Uber's Pitch Deck</a> - Early-stage startup example</li>
+                </ul>
+            </div>
+        </section>
+        <div class="back-to-top fixed bottom-5 right-5 z-50">
+            <a href="#top" class="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full shadow-lg transition-all duration-300 flex items-center">
+                <i class="fas fa-angle-double-up mr-2"></i> Back to Top
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white py-6">
+        <div class="container">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <p>&copy; <span id="current-year"></span> Build-a-Tech Startup: IT Edition</p>
+                <div class="mt-4 md:mt-0 flex items-center">
+                    <img src="images/shark-icon.svg" alt="Shark Icon" class="w-6 h-6 mr-2">
+                    <span>Shark Tank-Style Tech Innovation Project</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
