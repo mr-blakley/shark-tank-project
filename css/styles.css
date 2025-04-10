@@ -50,11 +50,12 @@ header h1 {
 
 /* Navigation Styles */
 nav {
-    background-color: var(--dark-color);
+    background: linear-gradient(to right, var(--dark-color), var(--primary-color));
     position: sticky;
     top: 0;
     z-index: 100;
     box-shadow: var(--shadow);
+    font-size: 1.1rem;
 }
 
 nav ul {
@@ -72,12 +73,12 @@ nav a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1.2rem;
     transition: var(--transition);
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 nav i {
@@ -97,15 +98,23 @@ main {
     box-shadow: var(--shadow);
 }
 
+section {
+    background-color: #f9f9f9;
+    padding: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 2.5rem;
+    box-shadow: var(--shadow);
+}
+
 section h2 {
-    color: var(--primary-color);
+    color: var(--accent-color);
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--light-color);
 }
 
 section h3 {
-    color: var(--dark-color);
+    color: var(--secondary-color);
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
